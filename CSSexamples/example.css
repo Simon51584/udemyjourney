@@ -1,0 +1,23 @@
+h2 {
+    /* hexdecimal notation */
+    color: #5fcffc;
+    /* rgb syntax */
+    background-color: rgb(89, 151, 0);
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: olive;
+    /* background is a much more involved object compared to background-color */
+    background: orange;
+}
+
+body {
+    /* CSS shorthand example */
+    background-color: #c5e;
+}
+
