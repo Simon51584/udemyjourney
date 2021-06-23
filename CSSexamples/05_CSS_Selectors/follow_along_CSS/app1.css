@@ -14,7 +14,7 @@
  h1,h2 {
      color: #1d3557;
  }
-
+/* Id selector */
  #signup {
      background-color: #1d3557;
      color: #f1faee;
@@ -37,3 +37,31 @@
  footer a {
      color: #e63946;
  }
+
+ h2 + button {
+     font-size: 20px;
+}
+
+/* direct child selector */
+footer > a {
+    color: #457b9d;
+}
+
+/* attribute selector */
+input[type="password"] {
+    color: greenyellow
+}
+
+/* section[class="post"] {
+    background: purple;
+} */
+
+a[href*="google"] {
+    color: magenta;
+}
+
+/* psuedo classes */
+button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
