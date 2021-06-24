@@ -32,6 +32,8 @@
 /* class decendent selector */
  .post a {
      color: #457b9d;
+     font-weight: 700;
+     text-decoration: none;
  }
 
  footer a {
@@ -61,7 +63,49 @@ a[href*="google"] {
 }
 
 /* psuedo classes */
-button:hover {
+.post button:hover {
     background-color: #e63946;
     color: #f1faee;
 }
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+.post:nth-of-type(2n){
+    background-color: #dfe8dc;
+}
+
+/* pseudo elements */
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+p::selection {
+    background-color: #fcbf49;
+}
+/* The Cascade = The order your styles are declared in the linked to matters!!! */
+
+/* h1,h2 {
+    color: yellow
+} */
+
+
+button:hover {
+    background-color: olive;
+}
+
+/* Specificity need to knows ID => Class => Element */
+
+button {
+    background-color: magenta !important;
+}
+
