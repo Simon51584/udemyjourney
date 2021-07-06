@@ -1,0 +1,18 @@
+section {
+    background-color: blanchedalmond;
+    height: 600px;
+    width: 800px;
+}
+
+div {
+    background-color: #9BAC4C;
+    width: 70%;
+    height: 20%;
+
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
