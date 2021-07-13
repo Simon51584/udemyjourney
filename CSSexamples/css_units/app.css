@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5em;
+    font-size: 2em;
     margin-left: 1em;
 }
 
@@ -31,5 +31,17 @@ h3 {
 }
 
 article {
-    font-size: 10px;
+    font-size: 15px;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: .5em;
+    background-color: blueviolet;
+    color: cornsilk;
+}
+
+ul {
+    font-size: 1.5em;
 }
