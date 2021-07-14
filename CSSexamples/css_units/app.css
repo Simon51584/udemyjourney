@@ -1,32 +1,36 @@
-section {
+html {
+    font-size: 10px;
+}
+
+#percentages {
     background-color: blanchedalmond;
     height: 600px;
     width: 800px;
 }
 
-div {
+#percentages div {
     background-color: #9BAC4C;
     width: 70%;
     height: 20%;
 
 }
 
-h1 {
+#ems h1 {
     font-size: 40px;
     border: 1px solid black;
     line-height: 200%;
 }
 
-h2 {
+#ems h2 {
     font-size: 2em;
     margin-left: 1em;
 }
 
-p {
+#ems p {
     font-size: 1em;
 }
 
-h3 {
+#ems h3 {
     font-size: 1.5em;
 }
 
@@ -44,4 +48,20 @@ button {
 
 ul {
     font-size: 1.5em;
+}
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+#rems button {
+    font-size: 1.5rem;
 }
