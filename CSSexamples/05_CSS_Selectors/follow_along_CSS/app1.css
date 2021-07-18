@@ -105,7 +105,7 @@ button:hover {
 
 /* Specificity need to knows ID => Class => Element */
 
-button {
+/* button {
     background-color: magenta !important;
-}
+} */
 

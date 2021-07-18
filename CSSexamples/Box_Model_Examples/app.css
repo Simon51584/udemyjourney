@@ -1,4 +1,8 @@
 /* Height and Width example */
+body {
+    margin: 0;
+}
+
 div {
     width: 200px;
     height: 200px;
@@ -6,12 +10,16 @@ div {
 
 h1 {
     background-color: pink;
-    width: 100px;
+    width: 200px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin: 0;
 }
 
 h2 {
     background-color: green;
-    width: 200 px;
+    width: 200px;
+    margin: 0;
 }
 
 #one {
@@ -20,6 +28,8 @@ h2 {
     border-color: black;
     border-style: solid;
     /* box-sizing: border-box; */
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
 
 #two {
@@ -28,7 +38,7 @@ h2 {
     border-width: 3px;
     border-style: dashed;
     border-left-width: 8px;
-
+    margin: 200px;
 }
 
 #three {
@@ -36,4 +46,8 @@ h2 {
     border: 4px solid black;
     border-left-style: dotted;
     border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
 }
